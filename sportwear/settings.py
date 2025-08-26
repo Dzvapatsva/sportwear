@@ -25,10 +25,10 @@ SECRET_KEY = 'django-insecure-f&&z!4i@8m+lmae9g%34nc**1p^iu5=9p$uaj1)x*(db*i%(%a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
-# Application definition
+# Application definition add
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'sports'
 ]
 
 MIDDLEWARE = [

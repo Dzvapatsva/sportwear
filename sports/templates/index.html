@@ -1,11 +1,33 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href=" {% static 'sports/css/navs.css' %}">
 </head>
 <body>
-<h1>Welcome to DevOps</h1>
+    <header>
+        <div class="container">
+            <div id="logo">DevOps</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+ <section class="content">
+        <div class="container">
+            <h1>Welcome to DevOps Sportwear!</h1>
+            <p>
+              	Get plenty of sportwear in our shop.
+          	</p>
+        </div>
+    </section>
 
 </body>
 </html>
