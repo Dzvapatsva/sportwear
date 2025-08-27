@@ -4,32 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-
     <link rel="stylesheet" href="{% static 'css/navs.css' %}">
-
 </head>
 <body>
-    <header>
+ <header>
         <div class="container">
             <div id="logo">DevOps</div>
             <nav>
                 <ul class="nav-links">
                     <li><a href="#">Home</a></li>
-                    <li><a href="{% url 'shopping' %}">Shopping</a></li>
-                    <li><a href="{% url 'cart' %}">Cart</a></li>
-                    <li><a href="{% url 'contact' %}">Contact</a></li>
+                    <li><a href="{% 'shopping' %}">Shopping</a></li>
+                    <li><a href="{% 'cart' %}">Cart</a></li>
+                    <li><a href="{% contact %}">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
- <section class="content">
-        <div class="container">
-            <h1>Welcome to DevOps Sportwear!</h1>
-            <p>
-              	Get plenty of sportwear in our shop.
-          	</p>
-        </div>
-    </section>
 
 </body>
 </html>
